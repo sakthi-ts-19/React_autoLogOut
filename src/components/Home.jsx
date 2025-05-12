@@ -15,7 +15,7 @@ const Home = () => {
                 alert('You have been logged out due to inactivity.')
                 handleLogOut();
             },5*60*1000);
-        }
+        };
         const events=['keydown','keypress','load','click','scroll','mousemove','mousedown'];
         events.forEach((event)=>window.addEventListener(event,resetTimer));
         resetTimer();
@@ -33,4 +33,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home;
